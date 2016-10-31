@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\dahye\\Desktop\\freeline\\freeline\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\dahye\\Desktop\\freeline\\freeline\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics-impl\\9.6.1\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\gwangyonglee\\Desktop\\개발\\프리라인\\freeline\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\gwangyonglee\\Desktop\\개발\\프리라인\\freeline\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics-impl\\9.6.1\\res\\raw\\gtm_analytics"
+    }
+]

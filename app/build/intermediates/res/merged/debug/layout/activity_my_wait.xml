@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_wait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.perples.recosample.Mywait.MyWaitActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:text="동적 이미지 추가 예정"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="대기열 취소"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mw_cancel"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="뽑은 번호"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mw_view1"
+        android:textSize="24sp"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/mw_cancel"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:text="@string/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mw_myNum"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/mw_view1"
+        android:layout_alignBottom="@+id/mw_view1"
+        android:layout_alignLeft="@+id/mw_waitNum"
+        android:layout_alignStart="@+id/mw_waitNum" />
+
+    <TextView
+        android:text="@string/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mw_waitNum"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/mw_cancel"
+        android:layout_toEndOf="@+id/mw_cancel" />
+
+    <ImageView
+        android:layout_height="35dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/page4_wait_font"
+        android:layout_width="100dp"
+        android:layout_above="@+id/mw_myNum"
+        android:layout_alignLeft="@+id/mw_view1"
+        android:layout_alignStart="@+id/mw_view1"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+</RelativeLayout>

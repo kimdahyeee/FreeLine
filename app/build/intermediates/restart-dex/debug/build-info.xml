@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
+    format="7"
+    timestamp="12987029239264"
+    token="1544113900768583182"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="150" />
+    <task
+        name="instant-run-dex"
+        duration="603" />
+    <task
+        name="instant-run-transform"
+        duration="11" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/Users/gwangyonglee/Desktop/RECO sample 3/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/gwangyonglee/Desktop/RECO sample 3/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="12834124102935" >
+        <artifact
+            location="/Users/gwangyonglee/Desktop/RECO sample 3/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="12987029239264"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/gwangyonglee/Desktop/RECO sample 3/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/gwangyonglee/Desktop/RECO sample 3/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

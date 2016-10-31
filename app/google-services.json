@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "508839362429",
+    "firebase_url": "https://freeline-f8c91.firebaseio.com",
+    "project_id": "freeline-f8c91",
+    "storage_bucket": "freeline-f8c91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508839362429:android:e6cb7a4c65bcca1d",
+        "android_client_info": {
+          "package_name": "com.perples.recosample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508839362429-hum5sgri1hrbcg42bujj5hdhhthgvn4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGX36dey2t-exli1Dw4EwruQClhQ1969M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

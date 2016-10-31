@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/storeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temp"
+            android:id="@+id/storeName"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/storeIntroLayout"
+        android:layout_below="@+id/storeLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temp"
+            android:id="@+id/storeIntro"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/storeImg"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:baselineAlignBottom="false"
+            android:clickable="false"
+            android:longClickable="false"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/proximityLayout"
+        android:orientation="horizontal"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/storeIntroLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:background="@drawable/page2_location_icon"
+            android:id="@+id/imageView4"
+            android:layout_height="20dp"
+            android:layout_width="17dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView android:id="@+id/recoAccuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/temp"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="true" />
+
+        <TextView android:id="@+id/accuracyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/accuracy_label"
+            android:textSize="15sp"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:background="@drawable/page2_stand_by_team"
+            android:id="@+id/imageView5"
+            android:layout_alignParentEnd="true"
+            android:layout_height="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_width="30dp" />
+
+        <TextView
+            android:text="@string/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/storeWaitNum"
+            android:textColor="@android:color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:text="대기팀 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

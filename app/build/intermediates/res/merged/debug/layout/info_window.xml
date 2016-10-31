@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/store_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+        android:id="@+id/store_locality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="매장이름"
+        android:textSize="18dp"/>
+
+        <TextView
+            android:text="대기팀"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_locality"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/store_view" />
+
+        <TextView
+            android:id="@+id/store_waitNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xx"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/store_locality"
+            android:layout_toRightOf="@+id/store_view"
+            android:layout_toEndOf="@+id/store_view" />
+
+        <TextView
+            android:text="팀"
+            android:layout_height="wrap_content"
+            android:id="@+id/store_view2"
+            android:layout_width="wrap_content"
+            android:layout_alignBaseline="@+id/store_waitNum"
+            android:layout_alignBottom="@+id/store_waitNum"
+            android:layout_toRightOf="@+id/store_waitNum"
+            android:layout_toEndOf="@+id/store_waitNum" />
+
+    </RelativeLayout>
+
+</LinearLayout>
